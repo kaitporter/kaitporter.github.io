@@ -6,11 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>torngat</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes spinner {
+        0% {
+            transform: translate3d(-50%, -50%, 0) rotate(0deg);
+        }
+        100% {
+            transform: translate3d(-50%, -50%, 0) rotate(360deg);
+        }
+    }
+        .spin::before {
+        animation: 1.5s linear infinite spinner;
+        animation-play-state: inherit;
+        border: groove 20px #0080ff;
+        /* border-bottom-color: #1c87c9; */
+        border-radius: 50%;
+        content: "";
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        /* top: 10%;
+        left: 10%; */
+        transform: translate3d(-50%, -50%, 0);
+        will-change: transform;
+        }
+    </style>
     </head>
 <body>
     <h1>torngat🌜packs</h1>
     <p>...ultralight gear made in canada...</p>
     <h2>in 🌶 progress</h2>
+    <div class="spin"></div>
 	<script src="index.js"></script>
     </body>
 </html>
