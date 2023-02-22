@@ -4,6 +4,7 @@ body {
     margin: 15% 15% 15% 15%;
     align-items: center;
     resize: both;
+    border: solid 10px aquamarine;
 }
 
 h1 {
@@ -26,5 +27,5 @@ h2 {
 }
 
 div {
-    padding: 10%;
+    padding: 15% 0 0 0;
 }
