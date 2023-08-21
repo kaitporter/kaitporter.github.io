@@ -9,8 +9,9 @@ body {
 
 h1 {
     font-family: monospace;
-    font-size: 75px;
-    margin: 0;
+    font-size: 100px;
+    margin: 0 0 10% 0;
+    font-style: italic;
 }
 
 p {
@@ -22,10 +23,18 @@ p {
 
 h2 {
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    /* margin: 15% 30% 15% 30%; */
+    align-items: center;
     font-size: 40px;
-    margin: 1% 0 0 0;
+    /* margin: 1% 0 0 0; */
 }
 
 div {
     padding: 20% 0 0% 0;
 }
+/* 
+.francais {
+    margin: 0 0 5% 0;
+} */
