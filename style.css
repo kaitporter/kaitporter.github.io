@@ -16,7 +16,7 @@ h1 {
 
 p {
     font-family: monospace;
-    font-size: 20px;
+    font-size: 10px;
     margin: 1% 0 0 0;
     color:rgb(107, 0, 247);
 }
@@ -27,7 +27,7 @@ h2 {
     flex-direction: column;
     /* margin: 15% 30% 15% 30%; */
     align-items: center;
-    font-size: 40px;
+    font-size: 20px;
     /* margin: 1% 0 0 0; */
 }
 
