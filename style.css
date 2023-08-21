@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 15% 30% 15% 30%;
+    margin: 0% 30% 15% 30%;
     align-items: center;
     /* resize: both;
     border: solid 10px aquamarine; */
